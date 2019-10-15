@@ -10,7 +10,6 @@ function preload(){
     myImage = loadImage("./assets/presidente1.jpeg");
     myImage2 = loadImage("./assets/presidente2.jpeg");
     myImage3 = loadImage("./assets/presidente3.jpeg")
-    cursor("./assets/presidente2.jpeg");
 }
 
 function setup() {
@@ -91,7 +90,7 @@ function draw() {
   image(myImage3, width-width/4, height/8, volume/2, volume/2);
   image(myImage3, width/4, height-height/8, volume/2, volume/2);
   image(myImage, width-width/4, height-height/8, volume/2, volume/2);
-  //image(myImage2, mouseX, mouseY, volume/3, volume/3);
+  image(myImage2, mouseX, mouseY, volume/3, volume/3);
   }
   /*
   var volume = 0;
